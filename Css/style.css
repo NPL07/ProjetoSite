@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.navbar {
+    height: 100px;
+    background: #FF0000;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+
+}
+
+.logo h1 {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 15px;
+}
+
+.menu a:hover {
+    color: black;
+    text-decoration: underline;
+    /* border-bottom: 1px solid white; */
+    /* border-top: 4px solid white; */
+
+}
+
+#botao {
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: green;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: white;
+    padding-top: 100px;
+
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.img-headline {
+    margin-right: 10%;
+    margin-left: 7%;
+    margin-top: 5%;
+    flex: 30%;
+    text-align: center;
+}
+
+.contact-btn {
+    background: red;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.contact-btn:hover {
+    background: darkblue;
+
+}
+
+section {
+    margin-top: 80px;
+    /* border: 1px solid deeppink; */
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    /* height: 400px; */
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+.card:hover {
+    background: #6A0399;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid red;
+
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.agencia {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 30px;
+
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+        
+}
