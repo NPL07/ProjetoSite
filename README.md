@@ -1,2 +1,2 @@
 # ProjetoSite
- Site em construção
+ Projeto de site responsivo com cards, ainda em construção.
